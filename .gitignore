@@ -1,0 +1,17 @@
+# Configurações locais e segredos
+.env
+.env.*
+
+# Permite manter o modelo de configuração
+!.env.example
+
+# Ambiente virtual Python
+.venv/
+
+# Cache e arquivos temporários Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+
+# Arquivos locais do editor
+.vscode/
